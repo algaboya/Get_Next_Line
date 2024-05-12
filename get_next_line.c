@@ -91,22 +91,3 @@ char	*get_next_line(int fd)
 	buffer = ft_final(buffer);
 	return (line);
 }
-
-// int	main()
-//  {
-//  	int		fd;
-
-//  	fd = open("example.txt", O_RDONLY);
-// 	// char *str = get_next_line(fd);
-// 	// free(str);
-// 	printf("%s", get_next_line(fd));
-// 	printf("%s", get_next_line(fd));
-// 	printf("%s", get_next_line(fd));
-// 	while (1)
-// 	{
-// 		/* code */
-// 	}
-// 	// printf("%s", get_next_line(fd));
-//    	close(fd);
-//  	return (0);
-//  }
